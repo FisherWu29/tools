@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>meta</title>
+    <meta name="viewport" id="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <script type="text/javascript">
+        var clientWidth = document.documentElement.clientWidth,
+                viewport = null,
+                viewportWidth = 'device-width',
+                viewportScale = 1;
+        if (clientWidth > 320) {
+            h5meta = document.getElementById('viewport');
+            viewportScale = clientWidth / 320;
+            viewportWidth = 320 * (320 / clientWidth);
+            h5meta.setAttribute('content', 'width=' + viewportWidth + ', initial-scale=' + viewportScale + ', maximum-scale=' + viewportScale + ', user-scalable=0');
+        }
+
+    </script>
+    <meta name="format-detection" content="telephone=no,email=no,address=no"/>
+</head>
+<body>
+
+</body>
+</html>
