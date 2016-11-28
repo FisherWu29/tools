@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c68012e8-6c89-481d-b9ce-fd88b5acec84" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dateMethod.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/getQuery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5meta.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imglazyload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keyboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uaTest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zeptoMethod.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common.js" afterPath="" />
-    </list>
+    <list default="true" id="c68012e8-6c89-481d-b9ce-fd88b5acec84" name="Default" comment="" />
     <ignored path="tools.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -159,8 +148,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="271" />
-    <option name="y" value="24" />
+    <option name="x" value="23" />
+    <option name="y" value="28" />
     <option name="width" value="1514" />
     <option name="height" value="937" />
   </component>
@@ -281,15 +270,15 @@
       <option name="presentableId" value="Default" />
       <updated>1479867929944</updated>
       <workItem from="1479867931149" duration="2109000" />
-      <workItem from="1480062681694" duration="3633000" />
+      <workItem from="1480062681694" duration="3726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5742000" />
+    <option name="totallyTimeSpent" value="5835000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="271" y="24" width="1514" height="937" extended-state="0" />
+    <frame x="23" y="28" width="1514" height="937" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13821138" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />

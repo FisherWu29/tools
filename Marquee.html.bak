@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>meta</title>
+    <meta name="viewport" id="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <script type="text/javascript">
+        var clientWidth = document.documentElement.clientWidth,
+                viewport = null,
+                viewportWidth = 'device-width',
+                viewportScale = 1;
+        if (clientWidth > 320) {
+            h5meta = document.getElementById('viewport');
+            viewportScale = clientWidth / 320;
+            viewportWidth = 320 * (320 / clientWidth);
+            h5meta.setAttribute('content', 'width=' + viewportWidth + ', initial-scale=' + viewportScale + ', maximum-scale=' + viewportScale + ', user-scalable=0');
+        }
+
+    </script>
+    <meta name="format-detection" content="telephone=no,email=no,address=no"/>
+	<style>
+		#scrollBox2{
+            font-size:14px;
+            overflow:hidden;
+            list-style:none;
+            width:100%;
+            height:30px;
+            line-height: 30px;
+            text-align: center;
+            color: #b08c40;
+            margin:0;
+            padding:0;
+            background-color: #ffeeca;
+            border-top: 1px solid #f2e1bd;
+            border-bottom: 1px solid #f2e1bd;
+        }
+        #scrollBox2 span{
+            color: #f63;
+        }
+	</style>
+</head>
+<body>
+<div id="scrollBox2" style="overflow: hidden;">
+	  <div style="color: #b08c40;">请在本餐桌<span>【珠海】</span>等候上菜用餐</div>
+	  <div style="color: #b08c40;">忘记订单号请扫描本餐桌二维码</div>
+	  <div style="color: #b08c40;">请在本餐桌<span>【珠海】</span>等候上菜用餐</div>
+	  <div style="color: #b08c40;">忘记订单号请扫描本餐桌二维码</div>
+</div>
+</body>
+</html>
